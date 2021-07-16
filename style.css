@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    user-select: none;
+}
+
+body {
+    margin: 32px;
+}
+
+#akrep {
+    display: inline-block;
+    position: absolute;
+    width: 36px;
+    height: 2px;
+    left: 145px;
+    top: 182px;
+    transform-origin: 36px;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+#yelkovan {
+    display: inline-block;
+    position: absolute;
+    width: 72px;
+    height: 2px;
+    left: 110px;
+    top: 182px;
+    transform-origin: 72px;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+#saniye {
+    display: inline-block;
+    position: absolute;
+    width: 84px;
+    height: 2px;
+    left: 98px;
+    top: 182px;
+    transform-origin: 84px;
+    background-color: rgba(25, 25, 25, 0.5);
+}
+
+#time {
+    display: inline-block;
+    position: absolute;
+    width: 300px;
+    top: 356px;
+
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(0, 0, 0, 0.85);
+}
